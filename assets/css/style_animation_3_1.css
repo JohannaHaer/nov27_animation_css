@@ -27,7 +27,7 @@ body {
 }
 
 .animation div:nth-of-type(1) {
-    animation: dots 4s linear 0s infinite forwards ;
+    animation: dots 4s linear 0s infinite forwards;
 }
 
 .animation div:nth-of-type(2) {
