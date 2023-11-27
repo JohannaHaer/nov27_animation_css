@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.transition {
+    padding: 10px;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(194, 193, 193);
+}
+
+.transition div {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    transition: width 0.5s 0.5s ease-in-out;
+}
+
+/* .transition div {
+    width: 500px;
+} */
+
+.transition div:hover {
+    width: 500px;
+}
