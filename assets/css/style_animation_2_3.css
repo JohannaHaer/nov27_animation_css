@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.animation {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation div {
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/mateusz-haberny-BrL6VFWKyow-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.animation div:hover {
+    animation: shadow 4s linear 0.3s infinite forwards alternate;
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: 0 0 5px 5px white;
+    }
+    33% {
+        box-shadow: -7px -7px 20px 10px lightblue, 1px 1px 10px 10px blue;
+    }
+    66% {
+        box-shadow: -1px -1px 10px 10px lightblue, 7px 7px 20px 10px blue;
+    }
+    100% {
+        box-shadow: 0 0 20px 10px white;
+    }
+  }
